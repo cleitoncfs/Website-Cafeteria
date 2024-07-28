@@ -326,6 +326,7 @@
 
     .topo .menu-toggle {
         display: flex;
+        margin-right: 10px; /* Ajusta a margem para dentro do container */
     }
 
     .nav-desktop {
@@ -361,6 +362,11 @@
     .lista-horarios {
         font-size: 14px;
         bottom: 10%;
+    }
+
+    .back-to-top {
+        right: 10px; /* Ajusta a margem para dentro do container */
+        bottom: 10px; /* Ajusta a margem para dentro do container */
     }
 }
 
