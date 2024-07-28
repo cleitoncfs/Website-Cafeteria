@@ -318,13 +318,14 @@
 @media (max-width: 768px) {
     .topo {
         padding: 10px;
+        justify-content: space-between;
     }
 
     .topo img {
         width: 60px;
     }
 
-    .topo .menu-toggle {
+    .menu-toggle {
         display: flex;
         margin-right: 10px; /* Ajusta a margem para dentro do container */
     }
