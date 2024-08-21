@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+body, main {
+    overflow-x: hidden; /* Evita que o conteúdo ultrapasse a largura da tela */
+}
+
 /* Topo da página */
 .topo {
     width: 100%;
@@ -56,11 +60,13 @@
     flex-direction: column;
     position: absolute;
     top: 50px;
-    right: 0;
+    left: 0;  /* Ajusta para iniciar do lado esquerdo */
+    right: 0; /* Remove a necessidade de ajustar a margem direita */
     background-color: #604829;
     width: 100%;
     text-align: center;
 }
+
 
 .nav-mobile a {
     display: block;
@@ -166,6 +172,9 @@
     left: 0;
     right: 0;
     margin: auto;
+    width: 100%;  /* Garante que o iframe ocupe toda a largura disponível */
+    height: auto; /* Mantém a proporção de altura */
+    max-width: 100%; /* Evita que o iframe ultrapasse a largura do container */
 }
 
 .container-contatos {
@@ -189,7 +198,7 @@
 
 /* Efeitos aplicados a classe container-texto */
 .container-texto {
-    padding: 80px 0px;
+    padding: 80px 10px; /* Reduz o padding para telas menores */
     font-size: 16px;
     font-weight: 400;
     line-height: 34px;
