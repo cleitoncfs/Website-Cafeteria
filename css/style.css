@@ -346,6 +346,23 @@ body, main {
         margin-right: 10px; /* Ajusta a margem para dentro do container */
     }
 
+    .menu-toggle.active .menu-bar:nth-child(1) {
+        transform: rotate(45deg);
+        position: relative;
+        top: 8px;
+    }
+    
+    .menu-toggle.active .menu-bar:nth-child(2) {
+        opacity: 0;
+    }
+    
+    .menu-toggle.active .menu-bar:nth-child(3) {
+        transform: rotate(-45deg);
+        position: relative;
+        top: -8px;
+    }
+    
+
     .nav-desktop {
         display: none;
     }

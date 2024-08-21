@@ -4,8 +4,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
     menuToggle.addEventListener('click', function() {
         navMobile.classList.toggle('active');
+        menuToggle.classList.toggle('active'); // Adiciona/Remove a classe active ao menu hamburger
     });
 });
+
 
 document.addEventListener('DOMContentLoaded', function() {
     const backToTopButton = document.querySelector('.back-to-top');
