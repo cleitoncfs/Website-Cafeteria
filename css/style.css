@@ -299,31 +299,6 @@ body, main {
 }
 
 
-/* Rodapé */
-.container-rodape {
-    position: relative;
-    padding: 20px 10px;
-    line-height: 24px;
-    letter-spacing: 1px;
-    font-weight: 600;
-    font-family: "Lato", sans-serif;
-    text-align: center;
-    background-color: #000000;
-    color: #fff;
-}
-
-.container-rodape span {
-    color: #c4a47c;
-}
-
-.container-rodape a {
-    color: #c4a47c;
-    text-decoration: none;
-}
-
-.container-rodape a:hover {
-    text-decoration: underline;
-}
 
 /* Estilo específico para o botão de seta */
 .voltar-topo {
