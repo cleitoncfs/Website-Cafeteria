@@ -298,6 +298,47 @@ body, main {
     color: #ACACAC;
 }
 
+/* Rodapé */
+.container-rodape {
+    position: relative;
+    padding: 20px 10px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    font-family: "Lato", sans-serif;
+    text-align: center;
+    background-color: #000000;
+    color: #fff;
+}
+
+.container-rodape span {
+    color: #c4a47c;
+}
+
+/* Estilo específico para o link do portfólio no rodapé */
+.container-rodape p a {
+    color: #c4a47c; /* Ajuste a cor se desejar */
+    text-decoration: none;
+}
+
+.container-rodape p a:hover {
+    text-decoration: underline; /* Opcional: efeito de hover */
+}
+
+/* Botão Voltar ao Topo */
+.back-to-top {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-image: url("../img/seta-para-cima.png");
+    background-position: center;
+    background-size: cover;
+    background-color: #c4a47c;
+    border-radius: 4px;
+}
 
 
 /* Estilo específico para o botão de seta */
